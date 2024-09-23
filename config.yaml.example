@@ -1,0 +1,11 @@
+# GitHub Backup Configuration
+
+github:
+  token: YOUR_PERSONAL_ACCESS_TOKEN  # Replace with your GitHub Personal Access Token
+  organizations:
+    - org_name_1
+    - org_name_2
+
+backup:
+  destination_path: /path/to/backup/directory  # Replace with your desired backup directory
+  log_file: /path/to/backup.log  # Replace with your desired log file path
